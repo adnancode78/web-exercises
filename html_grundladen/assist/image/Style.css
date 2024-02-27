@@ -1,6 +1,6 @@
 .container {
 
-    width: 20%;
+    width: 400px;
     min-height: 400px;
     position: relative;
 }
@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     position: absolute;
-    width: 225px;
+    width: 200px;
     height: 200px;
     border: 4px solid #0051ff;
 }
