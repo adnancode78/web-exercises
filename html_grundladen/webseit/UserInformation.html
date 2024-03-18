@@ -13,79 +13,82 @@
 
 
 <body>
-<ul>
-     <li><a href="index.html" target="_blank">Home</a></li>
-     <li><a href="Menu.html">Menu</a></li>
-    <li><a href="Preices.html">Preices</a></li>
-    <li><a href="UserInformation.html">User Information</a></li>
 
-    <form action="/action_page.php">
-        <h1>
-            <fieldset >
-                <legend>Personal Information</legend>
-                <h6>
-        First Name:
-        <input TYPE="text" name="first_name" value="first name"/>
-            <br><br>
+<li><a href="index.html" target="_blank">Home</a></li>
+<li><a href="Menu.html">Menu</a></li>
+<li><a href="Preices.html">Preices</a></li>
+<li><a href="UserInformation.html">User Information</a></li>
 
-            Last Name:
-            <input TYPE="text" name="last_name" value="last name" >
-            <br><br>
-               User ID :
-                    <input type="text" name="user_id"/>
-                    <br><br>
+<form action="/action_page.php">
 
-                    <label for="password">Password :</label>
-                    <input type="password" id="password">
-                    <br><br>
-                    <input type="submit" value="submit">
-                </h6>
-            </fieldset>
-        </h1>
-    </form>
-
-<form>
-    <h1>
-        <fieldset>
-            <legend>Chosen</legend>
-            <h6>
-                
-                <input type="checkbox"  name="html5" id="html5" value="on">
-                <label for="html5">html5</label>
-                <input type="checkbox" name="java" id="java" value="on">
-                <label for="java">java</label>
-                <input type="checkbox" name="webd" id="webd" value="on">
-                <label for="webd">webd</label>
-                <br><br>
-                <input type="radio" name="subject" id="html5" value="HTML5">
-                <label for="html5">html5</label>
-                <input type="radio" name="subject" id="java" value="java">
-                <label for="java">java</label>
-                <input type="radio" name="webd" id="webd" value="webd">
-                <label for="webd">webd</label>
-            </h6>
-        </fieldset>
-    </h1>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <div>
+            <label for="firstname">first name:</label><br>
+            <input type="text" id="firstname" name="firstname">
+        </div>
+        <div>
+            <label for="lastname">last name:</label><br>
+            <input type="text" id="lastname" name="lastname">
+        </div>
+        <div>
+            <label for="userid">User ID</label><br>
+            <input type="text" id="userid" name="userid">
+        </div>
+        <div>
+            <label for="password">Password :</label><br>
+            <input type="password" id="password">
+        </div>
+        <div>
+         <br>
+            <input type="submit" id="submit" name="submit">
+        </div>
+    </fieldset>
 </form>
 
-    <input type="checkbox" checked>
-    <br><br>
-    <input type="color">
-    <br><br>
-    <input type="date">
-    <br><br>
-    <input	type="datetime-local">
-    <br><br>
-    <textarea name="message" rows="15" cols="33">
-    </textarea>
-    
 
-</body>
+
+<form>
+
+    <fieldset>
+        <legend>Chosen</legend>
+
+
+        <input type="checkbox" name="html5" id="html5" value="on">
+        <label for="html5">html5</label>
+        <input type="checkbox" name="java" id="java" value="on">
+        <label for="java">java</label>
+        <input type="checkbox" name="webd" id="webd" value="on">
+        <label for="webd">webd</label>
+
+        <input type="radio" name="subject" id="html5" value="HTML5">
+        <label for="html5">html5</label>
+        <input type="radio" name="subject" id="java" value="java">
+        <label for="java">java</label>
+        <input type="radio" name="webd" id="webd" value="webd">
+        <label for="webd">webd</label>
+
+    </fieldset>
+
+</form>
+
+<input type="checkbox" checked>
+
+<input type="color">
+
+<input type="date">
+
+<input type="datetime-local">
+
+<textarea name="message" rows="15" cols="33">
+    </textarea>
+
+
 <footer>
     <p>With Best Respect
         <br>Created By Adnan</p>
 
 </footer>
-</ul>
+
 </body>
 </html>
