@@ -1,0 +1,47 @@
+.container {
+
+    width: 400px;
+    min-height: 400px;
+    position: relative;
+}
+
+.container div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #0051ff;
+}
+
+.img1 {
+    background-image: url("i1.jpeg");
+    top: 0;
+    left: 0;
+}
+
+
+.img2 {
+    background-image: url("i2.jpeg");
+    top: 0;
+    right: 0;
+}
+
+.img3 {
+    background-image: url("i3.jpeg");
+    bottom: 0;
+    left: 0;
+}
+
+.img4 {
+    background-image: url("i4.jpeg");
+    bottom: 0;
+    right: 0;
+}
+
+.img5 {
+    background-image: url("i5.jpeg");
+    top: 25%;
+    left: 25%;
+}
