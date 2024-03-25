@@ -1,0 +1,74 @@
+h1 {
+    color: red;
+    font-family: fantasy;
+    text-decoration: underline;
+    font-size: 50px;
+
+}
+
+
+h2 {
+
+    font-size: 25px;
+}
+
+h3 {
+    color: black;
+    font-weight: bold;
+    font-family: "Times New Roman"
+    text-decoration: underline;
+    font-size: 50px;
+
+}
+
+
+.olmer1 {
+    color: red;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.lorem2 {
+    font-weight: bold;
+}
+
+.lorem3 {
+    color: black;
+}
+
+p {
+    color: green !important;
+    text-decoration: underline;
+}
+
+
+/* Apply styles when hovering over a link */
+.lomer4:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Apply styles when a link is clicked */
+.lomer5:active {
+    color: green;
+}
+
+/* Apply styles when a link is visited */
+.lomer6:visited {
+    color: purple;
+}
+
+/* Apply styles when a link receives focus */
+.lomer7:focus {
+    outline: 50px solid blue;
+}
+
+/* Apply styles to the first child of each list item */
+li:first-child {
+    font-weight: bold;
+}
+
+/* Apply styles to the last child of each list item */
+li:last-child {
+    font-style: italic;
+}
